@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(245, 144, 12);
+    display: flex;
+    height: 96vh;    
+}
+.main {
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    justify-content: center;
+    height: 70vh;
+    width: 70vh;
+    background-color: #FFFF ;   
+}
+.gauche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    width: 60%;
+}
+.azer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    border-radius: 80px;
+    width: 160px;
+    height: 160px;
+    padding: 0px;
+}
+.A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.A button {
+    padding: 20px;
+    border-radius: 30px;
+    width: 160px;
+}
+button:hover {
+    
+        background-color: aqua;
+        transition: 0.6s;
+}
+/* main */
+.droite {
+    background-color: rgb(248, 241, 248);
+    gap: px;
+    flex-wrap: wrap;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.cam {
+    background-color: rgb(251, 143, 243);
+    width: 270px;
+    height: 33%;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cam:hover {
+    background-color: aqua;
+    transition: 0.6s;
+}
+.cami {
+    background-color: rgb(251, 143, 243);
+    width: 270px;
+    height: 33%;  
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.cami:hover {
+    background-color: aqua;
+    transition: 0.6s;
+}
+.camie {
+    background-color: rgb(251, 143, 243);
+    width: 270px;
+    height: 33.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.camie:hover {
+    background-color: aqua;
+    transition: 0.6s;
+}
+.cercle {
+    border: solid 2px #44404012;
+    border-radius: 90px;
+    width: 180px;
+    height: 180px;
+    justify-content: space-around;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
